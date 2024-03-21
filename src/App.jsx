@@ -1,8 +1,12 @@
+import About from "./About"
+import Navbar from "./Navbar"
+
 function App() {
 
   return (
     <>
-      <h1>Ashif</h1>
+    <Navbar/>
+      <About/>
     </>
   )
 }
