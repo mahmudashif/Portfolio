@@ -11,6 +11,9 @@ export default {
       },
       colors:{
         "primary" : "#6785A1"
+      },
+      fontFamily:{
+        'imbue' : "Imbue",
       }
     },
   },

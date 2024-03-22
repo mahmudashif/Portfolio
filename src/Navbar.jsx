@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-primary">
+    <div className="bg-primary font-imbue">
       <div className="container text-white mx-auto pb-2 flex justify-between pt-3 items-center">
         <div className="text-[25px] font-bold">AsHiF</div>
         <div>

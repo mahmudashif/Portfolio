@@ -6,10 +6,11 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { LiaFileDownloadSolid } from "react-icons/lia";
 
 const About = () => {
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-primary text-white font-imbue">
       <div className="container mx-auto pt-[150px] pb-[76px] flex justify-around">
         <div>
           <img src={myImg} className="h-[636px] w-[464px] rounded-3xl" alt="" />
@@ -18,13 +19,15 @@ const About = () => {
           <p className="text-[20px] font-semibold uppercase pb-[27px] text-center">
             Let To Know Me
           </p>
-          <h1 className="text-[100px]">Ashif Mahmud</h1>
+          <h1 className="text-[100px] font-imbue">Ashif Mahmud</h1>
           <div className="flex justify-center gap-10  pt-[30px] pb-[30px]">
             <div className="h-1 w-[100px] bg-white"></div>
             <div className="h-1 w-[5px] rounded-[50%] bg-[#FFA500]"></div>
             <div className="h-1 w-[100px] bg-white"></div>
           </div>
-          <h3 className="text-[50px] text-center">MERN Stack Developer</h3>
+          <h3 className="text-[50px] text-center font-imbue">
+            MERN Stack Developer
+          </h3>
           <div className="flex justify-between pt-[58px] text-[50px]">
             <FaFacebookSquare />
             <FaInstagramSquare />
@@ -32,7 +35,14 @@ const About = () => {
             <FaTwitterSquare />
             <FaLinkedin />
           </div>
-          <div>
+          <div className="pt-[100px] text-center">
+            <button className="mr-[100px] text-[20px] inline-flex items-center font-sans py-4 px-6 font-bold uppercase bg-[#FFA500] rounded-[10px] hover:bg-opacity-60 hover:text-black hover:animate-pulse">
+              Download CV
+              <LiaFileDownloadSolid className="ml-[5px]" />
+            </button>
+            <button className="py-4 px-6 text-[20px] font-sans rounded-[10px] font-bold uppercase bg-[#FFA500] hover:bg-opacity-60 hover:text-black hover:animate-pulse">
+              Hire Me
+            </button>
           </div>
         </div>
       </div>
