@@ -1,4 +1,5 @@
 import About from "./About"
+import Home from "./Home"
 import Navbar from "./Navbar"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
     <Navbar/>
       <About/>
+      <Home/>
     </>
   )
 }
