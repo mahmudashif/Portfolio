@@ -1,6 +1,7 @@
 import About from "./About"
 import Home from "./Home"
 import Navbar from "./Navbar"
+import Project from "./Project"
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
     <Navbar/>
       {/* <About/> */}
-      <Home/>
+      {/* <Home/> */}
+      <Project/>
     </>
   )
 }
